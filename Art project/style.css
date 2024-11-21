@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(144, 195, 200);
+}
+.wraper-section{
+    background-color: #ebeae9;
+}
+    
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 5rem;
+}    
+
+nav ul{
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-left: 4rem;
+}
+.burger-container{
+    margin-right: 4rem;
+    cursor: pointer;
+    padding: 10px;
+}
+.burger-container span{
+    height: 4px;
+    border: 2px solid black;
+    margin: 4px;   
+}
+header{
+    margin: 6rem;
+}
+.main-heading{
+    width: 50%;
+    font-size: 3rem;
+    font-family: Geist Mono;
+}
+.secondary-heading{
+    max-width: 42%;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 30px;
+    font-family: Geist+Mono;
+}
+.spn{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 4rem;
+    margin: 40px;
+}
+main .img{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+.section-three{
+    margin-left: 5rem;
+}
+.section-three .secondary-heading{
+    margin-bottom: 7rem;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-three img{
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+}
+.list .item h1{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: rgb(97, 97, 97);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    align-items: center;
+    height: 50vh;
+    color: white;
+    background-color: rgb(144, 195, 200);
+    padding: 20px;
+}
+.logo-container h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: sans-serif
+}
+.logo-container p{
+    max-width: 400px;
+    line-height: 25px;
+}
+footer .About-company{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.About-company .container{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.container h1{
+    margin-bottom: 50px;
+}
+.container p{
+    margin-bottom: 20px;
+}
+@media screen and (max-width:740px) {
+    header .main-heading{
+        width: 100%;
+        font-size: 2rem;
+        
+    }
+    header .secondary-heading{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-three .main-heading{
+        width: 100%;
+    }
+    .section-three .secondary-heading{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .section-three img{
+        margin: 0;
+    }
+    
+}
